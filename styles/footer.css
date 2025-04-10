@@ -1,0 +1,140 @@
+footer {
+  height: 28vh;
+  background-color: white;
+
+  @media (max-width: 414px) {
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+
+
+.img-logo-footer {
+  width: 130px;
+
+  @media (max-width: 414px) {
+    width: 110px;
+    display: none;
+  }
+}
+
+.img-logo-footer-mobile {
+  display: none;
+
+  @media (max-width: 414px) {
+    display: block;
+    width: 240px;
+    margin-bottom: 25px;;
+  }
+}
+
+.logo-footer-mobile {
+  @media (max-width: 414px) {
+    width: 110px;
+  }
+}
+
+.conteudo-footer {
+  display: flex;
+  gap: 150px;
+  padding: 70px 200px;
+  align-items: flex-end;
+  justify-content: center;
+
+  @media (max-width: 414px) {
+    padding: 30px 30px;
+    gap: 30px;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+.texto-icons {
+  display: flex;
+  gap: 70px;
+  align-items: flex-end;
+  color: #002752;
+  
+  @media (max-width: 414px) {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+}
+
+.icons-footer {
+  width: 30px;
+  margin-right: 10px;
+
+  @media (max-width: 414px) {
+    flex-direction: column;
+  }
+}
+
+.imagens-footer {
+  gap: 10px;
+
+  @media (max-width: 414px) {
+    justify-content: center;
+    padding: 0 32px;
+  }
+}
+
+.titulo-footer {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #002752;
+  margin-bottom: 15px;
+}
+
+.link-footer{
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #002752;
+}
+
+.linha {
+  width: 100%;
+  border: 1px solid #004002;
+
+  @media (max-width: 414px) {
+    width: 412px;
+  }
+}
+
+.linha-mobile {
+  display: none;
+  border: 1px solid #004002;
+
+  @media (max-width: 414px) {
+    width: 350px;
+  }
+}
+
+.logo-mobile {
+
+  margin-left: 80px;
+  @media (max-width: 414px) {
+    margin: 0 auto;
+  }
+}
+
+.credito {
+  color: #002752;
+  font-family: "Lato", sans-serif;
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+
+  @media (max-width: 414px) {
+   margin-top:12px;
+   padding-right: 10px;
+   justify-content: center;
+   margin-bottom: 12px;
+  }
+}
+
+.my-name {
+  color: #002752;
+}
