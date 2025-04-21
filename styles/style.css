@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+body {
+    background-color: #002752;
+    color: white;
+    height: 200vh;
+    box-sizing: border-box;
+}
+
+.apresentacao__conteudo {
+    width: 450px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in;
+}
+
+
